@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SolutionTripleDouble {
+public class Solution {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     long numOne = scanner.nextLong();
