@@ -39,8 +39,7 @@ public class SolutionTripleDouble {
    *
    * @return a boolean array, containing the results for each digit.
    */
-  private static boolean[] find_seriesOfSameDigits_forGivenMinLength(
-      int min_seriesLength, long num) {
+  private static boolean[] find_seriesOfSameDigits_forGivenMinLength(int min_seriesLength, long num) {
     boolean[] storeSeries = new boolean[10];
 
     while (num > 0) {
@@ -69,9 +68,7 @@ public class SolutionTripleDouble {
    *
    * @return 'true', if at least one triple-double pair is found. Otherwise, 'false'.
    */
-  private static boolean check_tripleDoublePair_of_sameDigit(
-      boolean[] triple_in_numOne, boolean[] double_in_numTwo) {
-
+  private static boolean check_tripleDoublePair_of_sameDigit(boolean[] triple_in_numOne, boolean[] double_in_numTwo) {
     for (int i = 0; i < 10; i++) {
       if (triple_in_numOne[i] == true && double_in_numTwo[i] == true) {
         return true;
